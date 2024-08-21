@@ -1,9 +1,11 @@
-#Post Generator - Backend
+# Post Generator - Backend
+
 by: Andres Ordonez
 
 To run the server locally:
 
 1. Clone the Repository
+
    First, navigate to the backend folder and clone the project repository to your local machine:
 
 ```
@@ -12,6 +14,7 @@ cd <repository-folder>
 ```
 
 2. Install Dependencies
+
    Make sure you have Node.js and npm installed on your machine. If not, you can download them from nodejs.org.
 
 Install the required npm packages by running:
@@ -21,6 +24,7 @@ npm install
 ```
 
 3. Set Up Environment Variables
+
    Create a .env file in the root of your project directory if it doesn't already exist. Add your Gemini API key to this file:
 
 ```
