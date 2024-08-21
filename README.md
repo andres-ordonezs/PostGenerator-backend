@@ -1,4 +1,4 @@
-#Post Generator - Backend
+# Post Generator - Backend
 by: Andres Ordonez
 
 To run the server locally:
