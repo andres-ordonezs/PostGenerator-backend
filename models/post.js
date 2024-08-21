@@ -5,11 +5,6 @@ const Post = require("../schemas/postModel");
 class PostService {
   /**
    * Creates a new post with the given title and text.
-   *
-   * @param {Object} params - The post data.
-   * @param {string} params.title - The title of the post.
-   * @param {string} params.text - The text content of the post.
-   * @throws {Error} - Throws an error if the post creation fails.
    */
   static async add({ title, text }) {
     try {
